@@ -1,0 +1,24 @@
+center_page "", "My first weaver page" do
+	request_js 'js/chip8.js'
+	request_css 'css/chip8.css'
+
+	row do
+		full do
+			h2 "chip8"
+			br
+
+			div id: :canvas do
+			end
+
+			hr
+
+			div id: :drop_zone,
+			    ondrop: "dropHandler(event);", 
+			    ondragover: "dragOverHandler(event)" do
+				p 'Drag chip8 file'
+			end
+
+		end
+	end
+	
+end

@@ -1,0 +1,25 @@
+#background {
+  background-color: #002;
+}
+
+#canvas {
+  background-color: #000;
+  width: calc(64px * 8);
+  height: calc(32px * 8);
+  margin: 0px;
+  display: block;
+}
+
+#drop_zone {
+  background-color: #00a;
+  height: 200px;
+  text-align: center;
+}
+
+.middle-box {
+  max-width: 512px;
+}
+
+.row {
+  max-width: 512px;
+}
